@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 900px;
+    width: 1440px;
+}
+
+header{
+    display: flex;
+    background-color: #C11616;
+    width: 1440px;
+    height: 90px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+header div p{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+header #barra{
+    color: #FFFFFF;
+    font-weight: 600;
+    position: relative;
+    bottom: 32px;
+    left: 700px;
+}
+
+header div a{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+    text-underline-position: from-font;
+    position: relative;
+    left: 590px;
+    top: 25px;
+}
+
+header #download{
+    position: relative;
+    left: 734px;
+    top: -80px;
+}
+
+header div #search{
+    position: relative;
+    left: 550px;
+    top: 30px;
+}
+
+header figure{
+    display: flex;
+    width: 181.507px;
+    height: 56.156px;
+    flex-shrink: 0
+}
+
+header #linha{
+    background-color: #FFFFFF;
+    height: 1px;
+    width: 281.5px;
+    position: relative;
+    left: 160px;
+    top: 50px;
+}
+
+nav .title{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: 250px;
+    top: 80px;
+    width: 910px;
+    color: var(--neutras-Aco, #273644);
+    font-family: Inter;
+    font-size: 40px;
+    line-height: 140%;
+}
+
+nav .more{
+    width: 787px;
+    height: 39px;
+    flex-shrink: 0;
+    background: #EFF2F7;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 355px;
+    top: 70px;
+}
+
+nav .more p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3C4B58;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+nav .more a{
+    color: #C11616;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav .more img{
+    width: 32px;
+    height: 25px;
+    display: flex;
+    flex-shrink: 0;
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+
+nav .describe{
+    width: 860px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 355px;
+    top: 70px;
+}
+
+nav .describe p{
+    color: #707C8C;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+nav .describe small{
+    color: var(--neutras-Aco, #273644);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 120%;
+    position: relative;
+    right: 580px;
+    top: 190px;
+    width: 100%;
+    height: 25px;
+    background: linear-gradient(90deg, #EFF0F2 0%, rgba(249, 250, 252, 0.00) 50.31%);
+}
+
+nav .describe img{
+    width: 49.5px;
+    height: 14px;  
+    position: relative;
+    right: 640px;
+    top: 195px;
+}
+
+.topics{
+    display: flex;
+    column-gap: 10px;
+    position: relative;
+    top: 220px;
+    left: 180px;
+    width: 10000px;
+}
+
+.topics p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 160%;
+    color: #C11616;
+    border: 1.4px solid #C11616;
+    height: 28px;
+    position: relative;
+    right: 615px;
+    bottom: 45px;
+}
+
+.topics a{
+    display: flex;
+    flex-shrink: 0;
+    width: 14.238px;
+    height: 18.619px;
+    color: var(--neutras-Prata, #3C4B58);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 160%;
+    border: 1px solid #C11616;
+    border-radius: 50px;
+    text-decoration: none;
+    position: relative;
+    right: 635px;
+    bottom: 35px;
+}
+
+.topics #red-number{
+    color: #C11616;
+}
+
+.topics h3{
+    width: 787px;
+    color: #8D9AA6;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    position: relative;
+    left: 180px;
+    bottom: 100px;
+}
+
+.topics #mais{
+    border: none;
+    width: 787px;
+    color: var(--neutras-Gray, #8D9AA6);
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration-line: underline;
+    text-underline-position: from-font;
+    position: relative;
+    top: 20px;
+    left: -825px;
+}
+
+.line{
+    background-color: #C11616;
+    height: 4px;
+    width: 81px;
+    border-radius: 5px;
+    position: relative;
+    left: 360px;
+    top: 150px;
+}
+
+.container1{
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 250px;
+}
+
+.container1 p{
+    width: 237px;
+    color: var(--neutras-Aco, #273644);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.container1 h3{
+    color: var(--ui-color-danger-light, #EB5151);
+    font-family: Inter;
+    font-size: 26px;
+    line-height: 160%;
+    position: relative;
+    left: 305px;
+    bottom: 60px;
+}
+
+.container1 #video{
+    position: relative;
+    left: 900px;
+}
+
+.img-videos{
+    position: relative;
+    right: 120px;
+}
+
+.img-videos #china{
+    position: relative;
+    bottom: 342px;
+    left: 400px;
+}
+
+@media (max-width: 568px){
+    .jornal{
+        width: 440px;
+        height: 3000px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        right: 270px;
+    }
+
+    header{
+        left: 1000px;
+       
+    }
+
+    .container1 section figure p{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container3 section{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
