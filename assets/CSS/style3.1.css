@@ -1,0 +1,152 @@
+@media (min-width: 375px) and (max-width: 1024px){
+
+body{
+    box-sizing: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    max-width: 1024px;
+    display: inline-block;
+}
+
+header .parte1 p{
+    display: none;
+}
+
+header .parte1 small{
+    display: none;
+}
+
+header .parte2 p{
+    display: none;
+}
+
+header .parte2 a{
+    display: none;
+}
+
+article{
+    width: 100%;
+    box-sizing: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 300px;
+}
+
+.titulo-imagens{
+    width: 100%;
+    margin-bottom: 350px;
+    position: relative;
+    right: 520px;
+    bottom: 260px;
+}
+
+nav{
+    position: relative;
+    right: 650px;
+}
+
+nav .titulo p{
+    margin-right: 500px;
+    width: 1400px;
+}
+
+nav .titulo small{
+    margin-right: 880px;
+}
+nav .descricao p{
+    margin-left: -0px;
+    margin-top: -40px;
+    width: 350px;
+}
+
+section{
+    width: 100%;
+    box-sizing: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+
+section .praia img{
+    display: none;
+}
+
+section .info{
+    display: none;
+}
+
+section .artigo p{
+    margin-left: -500px;
+    margin-top: 80px;
+    width: 350px;
+}
+
+section .artigo h3{
+    margin-left: 168px;
+    margin-top: 70px;
+    width: 400px;
+}
+
+section .artigo small{
+    margin-left: 195px;
+    position: relative;
+    top: 70px;
+    width: 400px;
+}
+
+section #traço{
+    margin-left: -500px;
+    position: relative;
+    bottom: 30px;
+}
+
+section img{
+    display: none;
+}
+
+article #i{
+    display: none;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    margin-top: -300px;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+}
+
+.container2 div{
+    position: relative;
+    right: 623px;
+    top: 200px;
+}
+
+#lorem{
+    position: relative;
+    left: -1070px;
+    margin-top: 240px;
+    min-width: 200px;
+}
+
+.container3{
+   display: none;
+}
+}
