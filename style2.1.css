@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container1 figure{
+    width: 223px;
+    height: 221px;
+    position: relative;
+    right: 40px;
+}
+
+.container1 a{
+    color: var(--ui-color-danger, #E62121);
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;  
+    line-height: 160%;
+    text-decoration: none;
+    margin-top: 370px;
+    position: relative;
+    right: 750px;
+}
+
+.container1 #seta{
+    position: relative;
+    right: 730px;
+    top: 55px;
+}
+
+.container1 #seta2{
+    position: relative;
+    right: 120px;
+    top: 55px;
+}
+
+.container1 #mais-videos{
+    position: relative;
+    right: 150px;
+}
+
+.container2 section p{
+    width: 787px;
+    color: var(--neutras-Aco, #273644);
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 160%;
+    position: relative;
+    top: 150px;
+    left: 300px;
+}
+
+.container2 h1{
+    width: 787px;
+    color: var(--neutras-Gray, #8D9AA6);
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    position: relative;
+    left: 300px;
+    top: 110px;
+}
+
+.container2 section small{
+    width: 787px;
+    color: var(--neutras-Gray, #8D9AA6);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    text-underline-position: from-font;
+    position: relative;
+    left: 300px;
+    top: 130px;
+}
+
+.container2 section aside a{
+    color: var(--neutras-Prata, #3C4B58);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    text-underline-position: from-font;
+}
+
+.container2 section #traço{
+    width: 788px;
+    height: 1px;
+    background: #D3DDE6;
+    margin-top: -46px;
+}
+
+.container2 section img{
+    position: relative;
+    left: 635px;
+    top: 90px;
+}
+
+.container2 #news{
+    width: 787px;
+    color: var(--ui-color-primary, #2648A1);
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 25.6px */
+    text-underline-position: from-font;
+    position: relative;
+    left: 935px;
+    top: 150px;
+}
+
+.container3{
+    display: flex;
+    width: 1443px;
+    height: 561px;
+}
+
+.container3 h2{
+    width: 787px;
+    position: relative;
+    left: 65px;
+    top: 140px;
+}
+
+.container3 #subtitulo{
+    width: 787px;
+    height: 21px;
+    flex-shrink: 0;
+    color: var(--neutras-Gray, #8D9AA6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    left: 100px;
+    top: 190px;
+}
+
+.container3 a{
+    width: 787px;
+    color: var(--ui-color-primary, #2648A1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    text-underline-position: from-font;
+    position: relative;
+    top: 420px;
+    right: 1880px;
+}
+
+.container3 section{
+    width: 2000px;
+    height: 260px;
+    border-radius: 5px;
+    border: 1px solid var(--ui-color-danger-light, #EB5151);
+    margin: 10px;
+    position: relative;
+    top: 220px;
+    right: 700px;
+}
+
+.container3 h4{
+    width: 245px;
+    color: var(--ui-color-danger-dark, #C11616);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    position: relative;
+    left: 10px;
+}
+
+.container3 section p{
+    position: relative;
+    left: 11px;
+    width: 240px;
+    height: 23px;
+    flex-shrink: 0;
+    color: var(--ui-color-danger-light, #EB5151);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.container3 section aside p{
+    font-weight: 400;
+}
+
+.container3 section aside small{
+    color: var(--neutras-Gray, #8D9AA6);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.container3 #outra-linha{
+    width: 210px;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #C11616;
+    position: relative;
+    left: 15px;
+}
+
+footer{
+    width: 1440px;
+    height: 220px;
+    flex-shrink: 0;
+    background: var(--neutras-Neve, #F9FAFC);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 30px;
+}
+
+footer p{
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.8px;
+    color: var(--neutras-Prata, #3C4B58);
+    padding-right: 100px;
+    margin-top: 50px;
+}
+
+footer a{
+    color: var(--neutras-Prata, #3C4B58);
+}
+
+footer img{
+    width: 181.507px;
+    height: 56.156px;
+    display: flex;
+    flex-shrink: 0;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+footer #autor{
+    color: #C11616;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    right: 525px;
+    top: 90px;
+}
+
+aside#linha2 p{
+    background-color: #C11616;
+    width: 60px;
+    height: 1px;
+    position: relative;
+    bottom: 105px;
+    left: 105px;
+}
+
+footer.logo{
+    width: 1440px;
+    height: 52px;
+    flex-shrink: 0;
+    background-color: #EFF2F7;
+    margin: -30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+}
+
+footer.logo img{
+    width: 42.596px;
+    height: 24.085px;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 26px;
+}
+
+@media (max-width: 568px){
+    .jornal{
+        width: 440px;
+        height: 3000px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        right: 270px;
+    }
+
+    header{
+        left: 1000px;  
+    }
+    
+    .container1 section figure p{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container3 section{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
