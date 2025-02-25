@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home{
+    width: 1440px;
+    height: 1174px;
+    background-color: #FFF;
+}
+
+body{
+    box-sizing: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    width: 1376px;
+    height: 30px;
+    padding: var(--spacing-spacing-base, 16px) var(--spacing-spacing-lg, 32px);
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #E5E7EB;
+    background: #FFF;
+}
+
+.header1, .header2, .circle{
+    position: relative;
+    left: 40px;
+}
+
+header .header1 img{
+    position: relative;
+    right: 80px;
+}
+
+header h1{
+    color: #0F3679;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 60px;
+    margin-left: 780px;
+    }
+
+header .header1 button{
+    border-radius: 4px;
+    border: 1px solid #F60;
+    background-color: #f60;
+    display: flex;
+    padding: 4px 16px;
+    align-items: center;
+    gap: 10px;
+    float: right;
+    position: relative;
+    left: 680px;
+    color: #FEFEFE;
+    color: #FEFEFE;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header .header1 button img{
+    position: relative;
+    left: 1px;
+}
+
+header .header2 img{
+    float: right;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 35px;
+    left: 50px;
+}
+
+header .circle img{
+    position: relative;
+    right: 115px;
+}
+
+header .circle #avatar{
+    position: relative;
+    right: 147px;
+    bottom: 4px;
+}
+
+.menu1{
+    display: inline-flex;
+    height: 1031px;
+    width: 160px;
+    padding: 40px var(--spacing-spacing-md, 24px);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-right: 1px solid #E5E7EB;
+    background-color: #FFFFFF;
+    margin-top: 0px;
+    margin-left: 1px;
+}
+
+.menu1 #seta{
+    position: relative;
+    left: 130px;
+}
+
+.menu1 img{
+    padding-top: 55px;
+    position: relative;
+    bottom: 70px;
+    left: 0px;
+}
+
+.menu1 p{
+    border-top: 1px solid #E5E7EB;
+    width: 160px;
+    position: relative;
+    top: 380px;
+}
+
+.menu1 td{
+    color: #0D5EAF;
+    text-align: start;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 29px;
+    position: relative;
+    bottom: 473px;
+    left: 10px;
+}
+
+.menu1 tr:hover{
+    background-color: #a3d3ff50;
+}
+
+.menu1 tr:active{
+    filter: brightness(0) saturate(100%) invert(25%) sepia(64%) saturate(2033%) hue-rotate(194deg) brightness(94%) contrast(94%);
+}
+
+.menu-down{
+    position: relative;
+    top: 270px;
+}
+   
+#final{
+    position: relative;
+    top: 350px;
+}
+
+nav{
+    margin-top: -1100px;
+    margin-left: 300px;
+}
+
+nav h1{
+    color: #111827;
+    font-family: Archivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    position: relative;
+    right: 38px;
+}
+
+nav button{
+    display: flex;
+    min-height: 36px;
+    padding: var(--spacing-spacing-xs, 6px) 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--border-radius-sm, 6px);
+    background: #F2F9FD;
+    border: 1px;
+    color: #0F6ECD;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: -80px;
+    margin-left: 680px;
+    }
+
+nav .infos{
+    display: flex;
+    color: #797D84;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}    
+
+.infos p{
+    padding: 18px;
+    margin-top: -15px;
+    position: relative;
+    right: 50px;
+}
+
+.infos strong{
+    color: #1A1C20;
+}
+
+nav .infos img{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    right: 35px;
+    top: 5px;
+}
+
+nav #external{
+    position: relative;
+    left: 370px;
+    bottom: 46px;
+}
+
+nav .seção{
+    display: flex;
+    height: 150px;
+    width: 225px;
+    margin: 20px;
+    padding: 12px 16px 24px 16px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    border-radius: 6px;
+    background: #F2F9FD;
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+nav .seção img{
+    width: 18px;
+    height: 18px;
+}
+
+.seção #external{
+    position: relative;
+    left: 180px;
+    top: -1px;
+}
+
+nav .seção #olho{
+    position: relative;
+    left: 175px;
+    top: 1px;
+}
+
+.seção1 p{
+    min-width: 200px;
+    margin-top: 110px;
+    position: relative;
+    right: 160px;
+}
+
+.seção2{
+    margin-left: 280px;
+    margin-top: -206px;
+}
+
+.seção3{
+    margin-left: 560px;
+    margin-top: -206px;
+}
+
+.seção3 h1{
+    position: relative;
+    right: 65px;
+}
+
+.seção3 p{
+    position: relative;
+    right: 20px;
+}
+
+nav #cifrao{
+    color: #2E96C9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    position: relative;
+    right: 240px;
+    top: 58px;
+}
+
+nav #centavo{
+    color: #374151;
+    font-family: Inter;
+    font-size: 16px;
+    position: relative;
+    right: 85px;
+    top: 56px;
+}
+
+.seção h1{
+    margin-left: -55px;
+    margin-top: 60px;
+    font-size: 32px;
+    width: 100%;
+}
+
+.seção h2{
+    color: #2E96C9;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: -10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.seção #movi{
+    position: relative;
+    right: 20px;
+}
+
+.seção p{
+    color: #2E96C9;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 100%;
+}
+
+.seção2 p{
+    margin-left: -250px;
+    margin-top: 110px;
+}
+
+.seção3 p{
+    color: #2E96C9;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+nav #processo{
+    width: 99999999px;
+    margin-left: -265px;
+    margin-top: 105px;
+}
